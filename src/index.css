@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(115.67deg, #EDC1D3 7.14%, #91BDEC 99.42%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 70vh;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+}

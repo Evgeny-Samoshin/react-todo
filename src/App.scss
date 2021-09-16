@@ -1,0 +1,41 @@
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D262C;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1D262C;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  label {
+    display: flex;
+    align-items: center; 
+  }
+  input {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    width: 200px;
+  }
+}
