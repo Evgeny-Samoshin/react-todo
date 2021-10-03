@@ -1,17 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
 body {
-    background: linear-gradient(115.67deg, #EDC1D3 7.14%, #91BDEC 99.42%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background: no-repeat linear-gradient(115.67deg, #EDC1D3 7.14%, #91BDEC 99.42%);
+  width: 100%;
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 #root {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70vh;
-  height: 70vh;
+  margin: 10px auto;
+  width: 70vw;
+  /* height: 70vh; */
   padding: 40px;
   background-color: #fff;
   border-radius: 10px;
